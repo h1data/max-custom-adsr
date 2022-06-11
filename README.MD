@@ -25,6 +25,8 @@ See the sample patch for details.
 
 - retrigger [float]: retrigger delay in msec, as the same as `adsr~`.
 
+- speed [float]: speed ratio of the envelope for 'Time\<Vel' feature. (default=1.0)
+
 - float / signal<br/>
   - In the left inlet: note on / note off amplitude in 0 to 1.<br/>
   - In the second inlet: trigger input for retrigger behavior. Must be pulse signal from `click~`.
