@@ -1,3 +1,5 @@
+[日本語の説明はこちら](README_JA.MD)
+
 ## What is this?
 A gen code of custom ADSR envelope.
 The concept is a hybrid one of `adsr~` and `live.adsr~`, and use with `live.adsrui`.
@@ -45,7 +47,7 @@ See the sample patch for details.
 - in the left outlet: the envelope signal.
 - in the second outlet: outputs 1 when the envelope is active. As the same as the second outlet of `live.adsr~`.<br/>
   \<TIP\> you can make `mute` message for `thispoly~` from this output and `edge~`.
-- in the third outlet: outputs 1 when the envelope is active except release phase. Otherwise outputs 0. As the same as `adsr~`.
+- in the third outlet: outputs 1 when the envelope is active except release phase. Otherwise outputs 0. As the same as the second outlet of `adsr~`.
 
 ## Miscellaneous
-- Curve shapes are not perfectly the same as live.adsr~.
+- Curve shapes are not perfectly the same as `live.adsr~`.
