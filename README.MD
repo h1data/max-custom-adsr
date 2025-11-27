@@ -46,7 +46,8 @@ See the sample patch for details.
 ## Output
 - in the left outlet: the envelope signal.
 - in the second outlet: outputs 1 when the envelope is active. As the same as the second outlet of `live.adsr~`.<br/>
-  \<TIP\> you can make `mute` message for `thispoly~` from this output and `edge~`.
+  \<TIP\> you can make `mute` message for `thispoly~` from this output and `edge~`.<br/>
+  Also, you can use this signal for `mc.noteallocator~`. (see `mc` tab in the sample patch)
 - in the third outlet: outputs 1 when the envelope is active except release phase. Otherwise outputs 0. As the same as the second outlet of `adsr~`.
 
 ## Miscellaneous
